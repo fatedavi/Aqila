@@ -1,0 +1,130 @@
+/* CSS untuk dekorasi halaman curhat */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .content {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .child {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .container {
+    margin-bottom: 10px;
+  }
+  
+  .field {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .checkbox {
+    margin-bottom: 5px;
+  }
+  
+  .checkbox input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Tambahkan dekorasi berikut */
+  .container::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(45deg, #4caf50, #45a049);
+    opacity: 0.1;
+    z-index: -1;
+  }
+  
+  .child {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .child::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(circle at top left, #4caf50, #45a049);
+    transform: rotate(-45deg);
+    opacity: 0.05;
+    z-index: -1;
+  }
+  
+/* CSS untuk sistem rating pengguna */
+.rating {
+    display: inline-block;
+  }
+  
+  .rating input[type="radio"] {
+    display: none;
+  }
+  
+  .rating label {
+    float: right;
+    cursor: pointer;
+    color: #aaa;
+  }
+  
+  .rating label:before {
+    content: "\2606";
+    font-size: 24px;
+  }
+  
+  .rating input[type="radio"]:checked ~ label:before {
+    content: "\2605";
+    color: #FFD700;
+  }
+  
+  
