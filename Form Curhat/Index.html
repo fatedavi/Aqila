@@ -17,11 +17,11 @@
                 <form action="" method="POST">
                     <div class="mb-3">
                         <label for="isicurhat" class="form-label">Masukan Curhatan kamu</label>
-                        <input type="text" id="isicurhat" name="isicurhat" class="form-control" required>
+                        <input type="text" id="isicurhat" name="Curhat" class="form-control" required>
                     </div>
                     <div class="mb-3">
                         <label for="isipesan" class="form-label">Masukan Pesan kamu</label>
-                        <input type="text" id="isipesan" name="isipesan" class="form-control" required>
+                        <input type="text" id="isipesan" name="pesan" class="form-control" required>
                     </div>
                     <div class="mb-3">
                         <label class="form-label">Rating:</label>
@@ -45,6 +45,17 @@
     </div>
     <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const scriptURL = '<https://script.google.com/macros/s/AKfycbwRgDXX8NihOuvd54FvMT-ixifRlZwmdQGzoQ03TDQSo5M9A43tZRhW4col9bbo-Y0shQ/exec URL>'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
 </body>
 
 </html>
