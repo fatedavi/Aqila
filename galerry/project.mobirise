@@ -1,0 +1,138 @@
+{
+  "settings": {
+    "name": "Sticky Photostack",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise5",
+      "title": "Mobirise 5",
+      "styling": {
+        "primaryColor": "#6592e6",
+        "secondaryColor": "#ff6666",
+        "successColor": "#40b0bf",
+        "infoColor": "#47b5ed",
+        "warningColor": "#FFE161",
+        "dangerColor": "#ff9966",
+        "mainFont": "Jost",
+        "display1Font": "Jost",
+        "display1Size": 4.6,
+        "display2Font": "Jost",
+        "display2Size": 3,
+        "display5Font": "Jost",
+        "display5Size": 2,
+        "display7Font": "Jost",
+        "display7Size": 1.2,
+        "display4Font": "Jost",
+        "display4Size": 1.1,
+        "isRoundedButtons": false,
+        "isGhostButtonBorder": false,
+        "underlinedLinks": false,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      }
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "5.2.6",
+    "siteFonts": [
+      {
+        "css": "'Jost', sans-serif",
+        "name": "Jost",
+        "url": "https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
+      }
+    ],
+    "chatbutton": {},
+    "favicon": false,
+    "mbrsiteDomain": "ptkmftpc77",
+    "imageResize": false,
+    "cssOptimize": false,
+    "lazyLoad": false,
+    "lazyType": "nothing",
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "gdpr": false,
+    "pwa-switcher": false,
+    "uniqCompNum": 2,
+    "versionPublish": "5.2.6"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Sticky Photostack",
+        "meta_descr": "Sticky Photostack",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "background-color": "#020520",
+            ".photostack": {
+              "perspective": "500px",
+              "overflow-x": "hidden"
+            },
+            "figure": {
+              "position": "sticky",
+              "top": "0",
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center",
+              "width": "100vw",
+              "height": "100vh"
+            },
+            "figure:nth-child(1) img": {
+              "transform": "scale(0.6) rotate(-12.5deg)"
+            },
+            "figure:nth-child(2) img": {
+              "transform": "scale(0.6) rotate(-9.7222222222deg)"
+            },
+            "figure:nth-child(3) img": {
+              "transform": "scale(0.6) rotate(-6.9444444444deg)"
+            },
+            "figure:nth-child(4) img": {
+              "transform": "scale(0.6) rotate(-4.1666666667deg)"
+            },
+            "figure:nth-child(5) img": {
+              "transform": "scale(0.6) rotate(-1.3888888889deg)"
+            },
+            "figure:nth-child(6) img": {
+              "transform": "scale(0.6) rotate(1.3888888889deg)"
+            },
+            "figure:nth-child(7) img": {
+              "transform": "scale(0.6) rotate(4.1666666667deg)"
+            },
+            "figure:nth-child(8) img": {
+              "transform": "scale(0.6) rotate(6.9444444444deg)"
+            },
+            "figure:nth-child(9) img": {
+              "transform": "scale(0.6) rotate(9.7222222222deg)"
+            },
+            "figure:nth-child(10) img": {
+              "transform": "scale(0.6) rotate(12.5deg)"
+            },
+            "figure img": {
+              "width": "100vmin",
+              "height": "100vmin",
+              "border-radius": "3px"
+            }
+          },
+          "_name": "content4",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section class=\"photostack\">\n<!--     <div class=\"photostack\"> -->\n    <figure><img src=\"https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=600&q=50\" width=\"1000\" height=\"1000\"></figure>\n<figure><img src=\"@PROJECT_PATH@/assets/images/mbr.jpeg\" width=\"1000\" height=\"1000\" alt></figure>\n<figure><img src=\"https://images.unsplash.com/photo-1497671954146-59a89ff626ff?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=600&q=50\" width=\"1000\" height=\"1000\"></figure>\n<figure><img src=\"https://images.unsplash.com/photo-1502082553048-f009c37129b9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=600&q=50\" width=\"1000\" height=\"1000\"></figure>\n<figure><img src=\"https://images.unsplash.com/photo-1554629947-334ff61d85dc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600$h=600&q=50\" width=\"1000\" height=\"1000\"></figure>\n<figure><img src=\"https://images.unsplash.com/photo-1573480813647-552e9b7b5394?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600$h=600&q=50\" width=\"1000\" height=\"1000\"></figure>\n<figure><img src=\"https://images.unsplash.com/photo-1509316785289-025f5b846b35?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=600$h=600&q=50\" width=\"1000\" height=\"1000\"></figure>\n<figure><img src=\"https://images.unsplash.com/photo-1544568104-5b7eb8189dd4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=600&q=50\" width=\"1000\" height=\"1000\"></figure>\n<figure><img src=\"https://images.unsplash.com/photo-1555424221-250de2a343ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=600&h=600&q=50\" width=\"1000\" height=\"1000\"></figure>\n    \n<!-- </div> -->\n</section>",
+          "_cid": "snad6ka7Fr",
+          "_anchor": "content4-0",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    }
+  }
+}
